@@ -1,13 +1,19 @@
 body {
     margin: 0px;
     background-color: #281553;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 header {
     margin: 0px; 
     padding: min(0.05em,70%);
-    background-color: #f2f2f2;
 }
+
+h1{
+    font-size: clamp(1rem, calc(4vw + 1rem),4rem);
+    color:  #f2f2f2;
+    text-align: center;
+}
+
 .nav_bar{
     padding-left: 20px; padding-right: 20px;
     display: flex;
@@ -15,10 +21,7 @@ header {
     justify-content: space-between;
     font-size: clamp(0.05rem, calc(0.5w + 1rem),0.5rem);
 }
-h1{
-    font-size: clamp(0.5rem, calc(2vw + 1rem),2rem);
-    color:  #1c0b2d;
-}
+
 .nav_bar a{
     color: #f2f2f2;
     font-size: clamp(0.05rem, calc(0.5w + 1rem),0.5rem);
