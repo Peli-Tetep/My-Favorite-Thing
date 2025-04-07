@@ -3,60 +3,48 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="otherimg/icon.png">
         <link rel="stylesheet" href="styles.css">
         <title>Tugas 1</title>
     </head>
     <body>
-    
+
         <header>
-            <h1 class="h1-01">My Favorite Things</h1>
-            <nav class="main-nav main-nav2">
-                <ul>
-                    <li><a href="#aboutme"> Tentang Saya</a></li>
-                    <li><a href="#favthing">Barang Favorit</a></li>
-                </ul>
+            <nav class="nav_bar">
+                <h1>My Favorite Thing</h1>
+                <button class="nav_button"><a href="aboutme.html">Tentang Saya</a></button>                
             </nav>
         </header>
 
-        <section id="aboutme">
-            <div class="one">
-                <h2>Tentang Saya</h2>
-            </div>
-            <div class="two">
-                <p>
-                Nama : Felisia Thevelyn 
-                <br>
-                Umur : 19 tahun
-                <br>
-                Jenis Kelamin : Perempuan
-                <br>
-                Mahasiswi Institut Teknologi dan Bisnis Sabda Setia
-                </p>
-            </div>
-        </section>
-
-        <section id="favthing">
+        <div class="web_main">
+            
+        <section id="favthing" class="favthing">
             <h2>Barang Favorit</h2>
-            <nav>
-            <a href="#satu">  Thing 1</a> |
-            <a href="#dua">   Thing 2</a> |
-            <a href="#tiga">  Thing 3</a> |
-            <a href="#empat"> Thing 4</a> |
-            <a href="#lima">  Thing 5</a>
-            </nav>
+            <div class="nav_bar2">
+                    <ul>
+                        <li><button class="nav_button"><a href="#satu"> Thing 1</a></button></li>
+                        <li><button class="nav_button"><a href="#dua">  Thing 2</a></button></li>
+                        <li><button class="nav_button"><a href="#tiga"> Thing 3</a></button></li>
+                        <li><button class="nav_button"><a href="#empat">Thing 4</a></button></li>
+                        <li><button class="nav_button"><a href="#lima"> Thing 5</a></button></li>
+                    </ul>
+            </div>
         </section>
 
-        <section id="satu">
-            <h2>Handphone</h2>
-            <img src="HP_01.png" width="250" height="250">
-            <div>
-                <h3>Deskripsi singkat benda :</h3>
-                <p>
-                    HP dengan model Vivo Y71 berwarna Rose Gold, sudah digunakan sejak 2018. <br>
-                    Casing transparan dengan gambar-gambar lucu dan memiliki gantungan bunga (bikinan sendiri). <br>
-                    Sedikit lecet pemakaian, tapi masih dapat berfungsi dengan cukup baik.
-                </p>
-            </div>
+        <div id="satu" class="container2">
+            
+            
+                <img src="imgfavthing/HP.png" width="250" height="250">
+                <section class="container2_text">
+                    <h2>Handphone</h2>
+                    <h3>Deskripsi singkat benda :</h3>
+                    <p>
+                      HP dengan model Vivo Y71 berwarna Rose Gold, sudah digunakan sejak 2018. <br>
+                      Casing transparan dengan gambar-gambar lucu dan memiliki gantungan bunga (bikinan sendiri). <br>
+                      Sedikit lecet pemakaian, tapi masih dapat berfungsi dengan cukup baik.
+                    </p>
+                </section>
+        
             <div>
                 <h3>"Mengapa kamu suka dengan benda tersebut?"</h3>
                 <ul>
@@ -64,91 +52,10 @@
                     <li>Memiliki beberapa aplikasi yang diperlukan (seperti HP pada umumnya)</li>
                 </ul>
             </div>
-        </section>
+        </div>
 
-        <section id="dua">
-            <h2>Laptop</h2>
-            <!--<img src="">-->
-            <div>
-                <h3>Deskripsi singkat benda :</h3>
-                <p>
-                    Laptop dengan merek ASUS-Vivobook (Windows 11). <br>
-                    Laptop dengan warna putih mengkilap dengan tempelan khusus Handphone diatasnya (tidak ada yang tahu, mengapa bisa-bisanya ditempel disitu).
-                    Sudah digunakan sejak 2021 dan masih dapat bekerja dengan baik.
-                </p>
-            </div>
-            <div>
-                <h3>"Mengapa kamu suka dengan benda tersebut?"</h3>
-                <ul>
-                    <li>Kapasitas yang cukup untuk mengunduh berbagai aplikasi</li>
-                    <li>Sangat mempermudah dalam pengerjaan tugas</li>
-                    <li>Praktis untuk dibawa kemana-mana</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="tiga">
-            <h2>Bantal</h2>
-            <!--<img src="">-->
-            <div>
-                <h3>Deskripsi singkat benda :</h3>
-                <p>
-                    Hanya sebuah bantal biasa, untuk tidur.<br>
-                    Termasuk bantal baru, karena baru dibeli pada pertengahan tahun 2024. <br>
-                    Motif sarung bantal antara Hello Kitty pink atau Angry Bird coklat. <br>
-                    Terlihat sering dibawa kemana-mana.<br>
-                </p>
-            </div>
-            <div>
-                <h3>"Mengapa kamu suka dengan benda tersebut?"</h3>
-                <ul>
-                    <li>Empuk dan enak untuk dipeluk</li>
-                    <li>Bahannya halus</li>
-                    <li>Mudah dibawa kemana-mana</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="empat">
-            <h2>Sketchbook</h2>
-            <!--<img src="">-->
-            <div>
-                <h3>Deskripsi singkat benda :</h3>
-                <p>
-                    Sketchbook kecil bewarna hitam. <br>
-                    Hadiah ulangtahun dari teman SMK. <br>
-                    Biasa digunakan untuk menggambar iseng atau menggambar sketsa tugas (desain dsb).<br>
-                </p>
-            </div>
-            <div>
-                <h3>"Mengapa kamu suka dengan benda tersebut?"</h3>
-                <ul>
-                    <li>Halamannya yang banyak</li>
-                    <li>Bahan kertasnya yang bagus</li>
-                    <li>Kenang kenangan dari teman</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="lima">
-            <h2>Sandwich Coklat</h2>
-            <!--<img src="">-->
-            <div>
-                <h3>Deskripsi singkat benda :</h3>
-                <p>
-                    Hanya roti dengan selai coklat, kadang ditambah meses coklat atau toping lainnya (selain keju).<br>
-                </p>
-            </div>
-            <div>
-                <h3>"Mengapa kamu suka dengan benda tersebut?"</h3>
-                <ul>
-                    <li>Dapat mengganjal lapar</li>
-                    <li>Mudah dibuat</li>
-                    <li>Enak</li>
-                </ul>
-            </div>
-        </section>
-
+        
+        </div>
         <footer>
             <p>&copy; 2025 oleh Felisia Thevelyn.</p>
         </footer>
